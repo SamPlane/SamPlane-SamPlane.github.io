@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Samuel Plane Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Samuel Plane<br/>
+						Portfolio</h1>
+						<p>A little bit about me and my projects</p>
+						<!--
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+						-->
+					</div>
+
+				<!-- Header 
+					<header id="header">
+						<a href="index.html" class="logo">Back to the top</a>
+					</header>
+				-->
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">My projects</a></li>
+							<li><a href="aboutMe.html">About me</a></li>
+							<li><a href="oldProjects.html">Old Projects</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/samuel-plane-85b934175/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/SamPlane" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">August 2022</span>
+									<h2><a href="#">GNPS Metadata Tool</a></h2>
+									<p>During my placement year at the University of York, I created a tool to create .tsv metadata
+										files for datasets to be uploaded to the Chromatography web application GNPS. This was created
+										using Python and Tkinter to create a Graphical User Interface. This tool automatically collects
+										the names of all the files to be used in the dataset and adds their names to the "filename" column.
+										From here, users can add additional fields with the option of adding a default value to speed up 
+										the creation of the file. Users can also use the tool to edit metadata files or import a .yaml config
+										file to automatically add a list of fields and values. Values can be edited straight from the table, 
+										and a .tsv file is produced when the user is finished.
+
+										This has been converted into a .exe file using auto-py-to-exe.
+
+										This can be found at the Wolfson Atmospheric Chemistry Laboratories repository at 
+										<a href="https://github.com/wacl-york/GNPS-Metadata-Tool">here</a>
+
+									</p>
+								</header>
+								<a class="image"><img src="images/MetadataTool.jpg" alt="Scientific Tool GUI. The upper left corner contains a
+									 table with various data points entered. The upper left contains textboxes and buttons, allowing users to add 
+									 new fields with an optional default value. The lower left corner contains button to either save the current 
+									 table as a .tsv file or import a config file to set up the table accordingly. The lower right corner contains
+									 the Wolfson Atmospheric Chemisty Laboratories logo" /></a>
+
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+
+								<article>
+									<header>
+										<span class="date">August 2023 - In Progress</span>
+										<h2>Conway's Game of Life Implementation<br />
+										</h2>
+									</header>
+									<a class="image fit"><img src="" alt="" /></a>
+									<p>
+										My implementation of Conway's Game of Life, a Zero-Player Game in which the outcome
+										is determined by the initial configuration of the game. More details can be found 
+										<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">here</a>.
+										This is written in C and includes a serial version, which uses High-Performance Computing
+										patterns, which is then parallelised using both OpenMP and MPI in two seperate version.
+									</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">December 2020</span>
+										<h2>Discord Bot<br />
+										"CitricAmoebot"</h2>
+									</header>
+									<a class="image fit"><img src="images/DiscordBot.jpg" alt="Discord channel, with a conversation between users 
+										CitricAmoeba and WonderSlime, and bot CitricAmoebot. CitricAmoeba and WonderSlime ask what game to play, to
+										which CitricAmoebot randomly selects a game and responds" /></a>
+									<p>“CitricAmoebot” is a discord bot designed to be a silly yet helpful
+										 personality, currently used in my discord server. It is capable of greeting new members to the server,
+										  answering simple questions and responding to messages. This was written in python, using
+										   the Discord API, and was previously hosted on Heroku.</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">February 2020</span>
+										<h2>My Computer</h2>
+									</header>
+									<a class="image fit"><img src="images/Computer.jpg" alt="A computer reusing a 2000-era DELL case using various modern components." /></a>
+									<p>As a demonstration of my skills with hardware, pictured above is my personal computer.
+										I assembled and set this up myself, and it has gone through various upgrades over time,
+										namely the increasing the RAM, adding storage capacity and a Wi-Fi Card.
+									</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">August 2023 - Ongoing</span>
+										<h2>Companion<br/>
+										</h2>
+									</header>
+									<a class="image fit"><img src="" alt="" /></a>
+									<p>
+										A chatbot inspired by PAL from "The Mitchells vs The Machines" (One of my favourite movies).
+										Written in Python using Chatterbot. Currently named Companion, in lieu of a better name.
+
+									</p>
+								</article>
+
+							</section>
+
+						<!-- Footer 
+							<footer>
+								<div class="pagination">
+									<a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!--
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						-->
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p>sam.plane@alumni.york.ac.uk <br>samplaneis@hotmail.com</p>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
